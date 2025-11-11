@@ -1,0 +1,56 @@
+/**
+ * 项目颜色变量定义
+ * 统一管理所有颜色样式，方便维护和主题切换
+ */
+
+/* ==================== 主题色 ==================== */
+// 主蓝色
+$color-primary: #6BB6FF;
+$color-primary-dark: #4A9EFF;
+
+// 渐变色
+$gradient-primary: linear-gradient(135deg, #6BB6FF 0%, #4A9EFF 100%);
+$gradient-danger: linear-gradient(135deg, #FF6B6B 0%, #FF4757 100%);
+
+/* ==================== 背景色 ==================== */
+// 页面背景渐变
+$bg-gradient: linear-gradient(180deg, #E8F4F8 0%, #F0F8FF 50%, #FFFFFF 100%);
+
+// 卡片背景
+$bg-card: rgba(255, 255, 255, 0.9);
+$bg-card-opacity: rgba(255, 255, 255, 0.95);
+
+// 输入框背景
+$bg-input: rgba(248, 248, 248, 0.8);
+$bg-input-light: rgba(248, 248, 248, 0.5);
+
+// 禁用背景
+$bg-disabled: rgba(255, 255, 255, 0.6);
+
+/* ==================== 文字颜色 ==================== */
+$text-primary: #1a1a1a;      // 主文字颜色
+$text-secondary: #666666;    // 次要文字颜色
+$text-tertiary: #999999;     // 辅助文字颜色
+$text-white: #ffffff;        // 白色文字
+$text-highlight: #4A9EFF;    // 高亮文字（金额等）
+
+/* ==================== 边框颜色 ==================== */
+$border-color: rgba(240, 240, 240, 0.6);
+$border-color-light: rgba(255, 255, 255, 0.8);
+$border-color-dashed: rgba(107, 182, 255, 0.3);
+
+/* ==================== 阴影颜色 ==================== */
+$shadow-card: 0 4rpx 20rpx rgba(0, 0, 0, 0.04);
+$shadow-card-large: 0 8rpx 32rpx rgba(0, 0, 0, 0.06);
+$shadow-card-xl: 0 12rpx 48rpx rgba(0, 0, 0, 0.08);
+$shadow-button-primary: 0 4rpx 12rpx rgba(74, 158, 255, 0.3);
+$shadow-button-small: 0 2rpx 8rpx rgba(74, 158, 255, 0.25);
+$shadow-button-danger: 0 4rpx 12rpx rgba(255, 71, 87, 0.3);
+$shadow-button-danger-small: 0 2rpx 8rpx rgba(255, 71, 87, 0.25);
+$shadow-logo: 0 8rpx 24rpx rgba(74, 158, 255, 0.15);
+
+/* ==================== 透明度 ==================== */
+$opacity-disabled: 0.6;
+$opacity-border: 0.3;
+$opacity-border-light: 0.2;
+

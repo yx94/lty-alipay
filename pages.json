@@ -1,0 +1,99 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "功能菜单"
+			}
+		},
+		{
+			"path": "pages/employee/contract",
+			"style": {
+				"navigationBarTitleText": "签约"
+			}
+		},
+		{
+			"path": "pages/employee/advance-apply",
+			"style": {
+				"navigationBarTitleText": "借支申请"
+			}
+		},
+		{
+			"path": "pages/employee/deduction-apply",
+			"style": {
+				"navigationBarTitleText": "代扣申请"
+			}
+		},
+		{
+			"path": "pages/employee/resign",
+			"style": {
+				"navigationBarTitleText": "离职"
+			}
+		},
+		{
+			"path": "pages/manager/pending-receive",
+			"style": {
+				"navigationBarTitleText": "待接收"
+			}
+		},
+		{
+			"path": "pages/manager/pending-entry",
+			"style": {
+				"navigationBarTitleText": "待入职"
+			}
+		},
+		{
+			"path": "pages/common/upload-id-card",
+			"style": {
+				"navigationBarTitleText": "上传身份证",
+				"mp-alipay": {
+					"usingComponents": {
+						"ocr-id": "plugin://ocr/ocr-id"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/manager/supplement-info",
+			"style": {
+				"navigationBarTitleText": "补录信息"
+			}
+		},
+		{
+			"path": "pages/manager/resign",
+			"style": {
+				"navigationBarTitleText": "离职"
+			}
+		},
+		{
+			"path": "pages/manager/audit-advance",
+			"style": {
+				"navigationBarTitleText": "审核借支"
+			}
+		},
+		{
+			"path": "pages/manager/confirm-bank-card",
+			"style": {
+				"navigationBarTitleText": "员工银行卡确认"
+			}
+		},
+		{
+			"path": "pages/manager/confirm-salary",
+			"style": {
+				"navigationBarTitleText": "员工工资确认"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "领头羊人力",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
